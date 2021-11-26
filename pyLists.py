@@ -1,4 +1,4 @@
-myList=["Cat","Dog",34]
+myList=["Cat","Dog"]
 
 print("Length of the list:"+str(len(myList)))
 myList.append("Saniya")
@@ -14,4 +14,7 @@ print("Delete element from thr end of the list:")
 print(myList)
 myList.remove("Conestoga")
 print("Remove element from 2nd position:")
+print(myList)
+myList.sort()
+print("Sorted List")
 print(myList)
